@@ -11,7 +11,8 @@ class HomeScreen extends StatelessWidget {
         title: const Text(
           'Weather App',
           style: TextStyle(
-            fontWeight: FontWeight.bold
+            fontWeight: FontWeight.bold,
+            
           ),
 
           ),
