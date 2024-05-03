@@ -43,7 +43,8 @@ class HomeScreen extends StatelessWidget {
           // forecast cards
           Placeholder(
             fallbackHeight: 150,
-          )
+          ),
+          
         ],
       ),
     );
