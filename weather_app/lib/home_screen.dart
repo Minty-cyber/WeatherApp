@@ -30,9 +30,6 @@ class HomeScreen extends StatelessWidget {
                 Icons.refresh
                 ),
               ),
-              Padding(
-                ede
-              )
           ],
       ),
     );
