@@ -9,15 +9,18 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return  Scaffold(
       appBar: AppBar(
-        title: const Text(
-          'Weather App',
-          style: TextStyle(
-            fontWeight: FontWeight.bold,
+        title: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: const Text(
+            'Weather App',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              
+            ),
             
-          ),
           
-
-          ),
+            ),
+        ),
           centerTitle: true,
           actions: [
             IconButton(
