@@ -35,7 +35,9 @@ class HomeScreen extends StatelessWidget {
       ),
       body: const Column(
         children: [
-          Placeholder()
+          Placeholder(
+            
+          )
         ],
       ),
     );
