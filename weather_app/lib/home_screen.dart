@@ -20,16 +20,19 @@ class HomeScreen extends StatelessWidget {
           ),
           centerTitle: true,
           actions: [
-            IconButton(
-              onPressed: (){
-                if (kDebugMode) {
-                  print("Hello World");
-                }
-              }, 
-              icon: const Icon(
-                Icons.refresh
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: IconButton(
+                onPressed: (){
+                  if (kDebugMode) {
+                    print("Hello World");
+                  }
+                }, 
+                icon: const Icon(
+                  Icons.refresh
+                  ),
                 ),
-              ),
+            ),
           ],
       ),
     );
