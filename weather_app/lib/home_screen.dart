@@ -19,12 +19,7 @@ class HomeScreen extends StatelessWidget {
           ),
           centerTitle: true,
           actions: [
-            InkWell(
-              onTap: (){
-                print("Refresh");
-              } ,
-              child: const Icon(Icons.refresh)
-              ),
+            IconButton(),
           ],
       ),
     );
