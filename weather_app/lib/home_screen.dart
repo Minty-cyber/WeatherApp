@@ -35,6 +35,7 @@ class HomeScreen extends StatelessWidget {
       ),
       body: const Column(
         children: [
+          // Top card
           Placeholder(
             fallbackHeight: 250,
           )
