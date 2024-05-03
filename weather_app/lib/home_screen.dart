@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Padding(
           padding: EdgeInsets.all(8.0),
-          child: const Text(
+          child: Text(
             'Weather App',
             style: TextStyle(
               fontWeight: FontWeight.bold,
