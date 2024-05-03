@@ -23,7 +23,7 @@ class HomeScreen extends StatelessWidget {
             IconButton(
               onPressed: (){
                 if (kDebugMode) {
-                  print("Hello World")
+                  print("Hello World");
                 }
               }, 
               icon: const Icon(
