@@ -9,8 +9,11 @@ class HomeScreen extends StatelessWidget {
     return  Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Weather App'
-          
+          'Weather App',
+          style: TextStyle(
+            
+          ),
+
           ),
       ),
     );
