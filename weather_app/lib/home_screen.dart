@@ -40,7 +40,10 @@ class HomeScreen extends StatelessWidget {
             child: Column(
               children: [
                 Text(
-                  "300° F"
+                  "300° F",
+                  style: TextStyle(
+                    
+                  ),
                   ),
                 
               ],
