@@ -37,7 +37,6 @@ class HomeScreen extends StatelessWidget {
         children: [
           // Top card
           Card(
-            
             child: Column(
               children: [
                 Text(
