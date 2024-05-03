@@ -44,7 +44,7 @@ class HomeScreen extends StatelessWidget {
           Placeholder(
             fallbackHeight: 150,
           ),
-          const SizedBox()
+          const SizedBox(height: ,)
         ],
       ),
     );
