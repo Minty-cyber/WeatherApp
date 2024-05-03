@@ -42,7 +42,8 @@ class HomeScreen extends StatelessWidget {
                 Text(
                   "300° F",
                   style: TextStyle(
-                    fontSize: 30,
+                    fontSize: 32,
+                    fontWeight: FontWeight.bold,
                   ),
                   ),
                 
