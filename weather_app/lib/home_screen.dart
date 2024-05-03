@@ -37,7 +37,7 @@ class HomeScreen extends StatelessWidget {
         children: [
           // Top card
           Container(
-            width: ,
+            width: double.infinity,
             child: Card(
               child: Column(
                 children: [
