@@ -37,7 +37,9 @@ class HomeScreen extends StatelessWidget {
         children: [
           // Top card
           Card(
-            child: ,
+            child: Column(
+              
+            ),
           ),
           SizedBox(height: 20),
           // forecast cards
