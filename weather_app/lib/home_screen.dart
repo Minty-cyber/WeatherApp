@@ -36,18 +36,20 @@ class HomeScreen extends StatelessWidget {
       body: const Column(
         children: [
           // Top card
-          Card(
-            child: Column(
-              children: [
-                Text(
-                  "300° F",
-                  style: TextStyle(
-                    fontSize: 32,
-                    fontWeight: FontWeight.bold,
-                  ),
-                  ),
-                
-              ],
+          Container(
+            child: Card(
+              child: Column(
+                children: [
+                  Text(
+                    "300° F",
+                    style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold,
+                    ),
+                    ),
+                  
+                ],
+              ),
             ),
           ),
           SizedBox(height: 20),
