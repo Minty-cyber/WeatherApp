@@ -18,8 +18,8 @@ class HomeScreen extends StatelessWidget {
 
           ),
           centerTitle: true,
-          actions: [
-            
+          const actions: [
+            const Icon(Icons.refresh)
           ],
       ),
     );
