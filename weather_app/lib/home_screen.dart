@@ -33,10 +33,11 @@ class HomeScreen extends StatelessWidget {
 
           ],
       ),
-      body: const Column(
+      body: Column(
         children: [
           // Top card
           Container(
+            width: ,
             child: Card(
               child: Column(
                 children: [
