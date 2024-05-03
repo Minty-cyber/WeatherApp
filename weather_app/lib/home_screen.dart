@@ -50,7 +50,8 @@ class HomeScreen extends StatelessWidget {
                       ),
                       ),
                       Icon(
-                        Icons.cloud
+                        Icons.cloud,
+                        size: 2.0,
                         )
                     
                   ],
