@@ -49,7 +49,7 @@ class HomeScreen extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                       ),
-                      
+                      Icon(Icons.cloud)
                     
                   ],
                 ),
