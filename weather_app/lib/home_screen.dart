@@ -22,9 +22,9 @@ class HomeScreen extends StatelessWidget {
           actions: [
             IconButton(
               onPressed: (){
-                if (kDebugMode) {
-                  print("Hello World");
-                }
+                // if (kDebugMode) {
+                //   print("Hello World");
+                // }
               }, 
               icon: const Icon(
                 Icons.refresh
