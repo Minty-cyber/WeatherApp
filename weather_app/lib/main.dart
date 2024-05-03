@@ -12,7 +12,7 @@ class MyWeatherApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
-      theme: ThemeData(),
+      theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
       home: const HomeScreen(),
     );
