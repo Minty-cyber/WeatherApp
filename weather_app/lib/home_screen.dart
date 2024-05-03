@@ -20,6 +20,7 @@ class HomeScreen extends StatelessWidget {
           centerTitle: true,
           actions: [
             GestureDetector(
+              onDoubleTap: ,
               child: const Icon(Icons.refresh)
               ),
           ],
