@@ -21,7 +21,7 @@ class HomeScreen extends StatelessWidget {
           actions: [
             GestureDetector(
               child: const Icon(Icons.refresh)
-              )
+              ),
           ],
       ),
     );
