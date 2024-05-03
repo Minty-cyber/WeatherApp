@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
           ),
           centerTitle: true,
           actions: [
-            GestureDetector(
+            InkWell(
               onTap: (){
                 print("Refresh");
               } ,
