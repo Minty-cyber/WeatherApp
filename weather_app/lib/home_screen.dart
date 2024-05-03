@@ -23,7 +23,9 @@ class HomeScreen extends StatelessWidget {
               onPressed: (){
 
               }, 
-              icon: Icon(Icons.refresh)
+              icon: Icon(
+                Icons.refresh
+                )
               ),
           ],
       ),
