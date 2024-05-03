@@ -33,37 +33,40 @@ class HomeScreen extends StatelessWidget {
 
           ],
       ),
-      body: const Column(
-        children: [
-          // Top card
-          SizedBox(
-            width: double.infinity,
-            child: Card(
-              child: Column(
-                children: [
-                  Text(
-                    "300° F",
-                    style: TextStyle(
-                      fontSize: 32,
-                      fontWeight: FontWeight.bold,
-                    ),
-                    ),
-                  
-                ],
+      body: const Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: const Column(
+          children: [
+            // Top card
+            SizedBox(
+              width: double.infinity,
+              child: Card(
+                child: Column(
+                  children: [
+                    Text(
+                      "300° F",
+                      style: TextStyle(
+                        fontSize: 32,
+                        fontWeight: FontWeight.bold,
+                      ),
+                      ),
+                    
+                  ],
+                ),
               ),
             ),
-          ),
-          SizedBox(height: 20),
-          // forecast cards
-          Placeholder(
-            fallbackHeight: 150,
-          ),
-          SizedBox(height: 20),
-          //Information tab
-          Placeholder(
-            fallbackHeight: 150,
-          )
-        ],
+            SizedBox(height: 20),
+            // forecast cards
+            Placeholder(
+              fallbackHeight: 150,
+            ),
+            SizedBox(height: 20),
+            //Information tab
+            Placeholder(
+              fallbackHeight: 150,
+            )
+          ],
+        ),
       ),
     );
   }
