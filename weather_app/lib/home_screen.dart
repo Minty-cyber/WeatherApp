@@ -7,33 +7,31 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Padding(
-      padding: const EdgeInsets.all(10.0),
-      child: Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            'Weather App',
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              
-            ),
+    return  Scaffold(
+      appBar: AppBar(
+        title: const Text(
+          'Weather App',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
             
-      
-            ),
-            centerTitle: true,
-            actions: [
-              IconButton(
-                onPressed: (){
-                  if (kDebugMode) {
-                    print("Hello World");
-                  }
-                }, 
-                icon: const Icon(
-                  Icons.refresh
-                  ),
+          ),
+          
+
+          ),
+          centerTitle: true,
+          actions: [
+            IconButton(
+              onPressed: (){
+                if (kDebugMode) {
+                  print("Hello World");
+                }
+              }, 
+              icon: const Icon(
+                Icons.refresh
                 ),
-            ],
-        ),
+              ),
+
+          ],
       ),
     );
   }
