@@ -14,7 +14,7 @@ class MyWeatherApp extends StatelessWidget {
     return  MaterialApp(
       theme: ThemeData(),
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
