@@ -21,9 +21,9 @@ class HomeScreen extends StatelessWidget {
           actions: [
             IconButton(
               onPressed: (){
-                
+
               }, 
-              icon: icon
+              icon: Icon(Icons.refresh)
               ),
           ],
       ),
