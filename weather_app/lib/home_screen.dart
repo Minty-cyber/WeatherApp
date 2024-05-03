@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 
@@ -21,7 +22,9 @@ class HomeScreen extends StatelessWidget {
           actions: [
             IconButton(
               onPressed: (){
-
+                if (kDebugMode) {
+                  print("Hello World")
+                }
               }, 
               icon: const Icon(
                 Icons.refresh
