@@ -35,7 +35,7 @@ class HomeScreen extends StatelessWidget {
       ),
       body: const Padding(
         padding: EdgeInsets.all(8.0),
-        child: const Column(
+        child: Column(
           children: [
             // Top card
             SizedBox(
