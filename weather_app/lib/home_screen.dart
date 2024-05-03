@@ -39,7 +39,7 @@ class HomeScreen extends StatelessWidget {
           Card(
             child: Column(
               children: [
-                Text(data)
+                Text("300F")
               ],
             ),
           ),
