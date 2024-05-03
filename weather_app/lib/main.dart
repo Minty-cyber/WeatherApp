@@ -13,7 +13,7 @@ class MyWeatherApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       theme: ThemeData.dark(useMaterial3: true).copyWith(
-        
+        appBarTheme: AppBarTheme()
       ),
       debugShowCheckedModeBanner: false,
       home: const HomeScreen(),
