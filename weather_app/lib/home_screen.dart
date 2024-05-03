@@ -20,7 +20,9 @@ class HomeScreen extends StatelessWidget {
           centerTitle: true,
           actions: [
             IconButton(
-              onPressed: onPressed, 
+              onPressed: (){
+                
+              }, 
               icon: icon
               ),
           ],
