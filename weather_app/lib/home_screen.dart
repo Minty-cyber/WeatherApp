@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
           // Top card
           Card(
             child: Column(
-              
+            
             ),
           ),
           SizedBox(height: 20),
