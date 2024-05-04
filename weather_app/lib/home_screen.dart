@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 
@@ -45,7 +47,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 elevation: 16,
                 child: BackdropFilter(
-                  filter: ImaageFil,
+                  filter: ImageFilter,
                   child: const Padding(
                     padding: EdgeInsets.all(20.0),
                     child: Column(
