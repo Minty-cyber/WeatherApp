@@ -76,7 +76,7 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             // forecast cards
-            Placeholder(
+            const Placeholder(
               fallbackHeight: 150,
             ),
             SizedBox(height: 20),
