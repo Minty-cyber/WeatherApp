@@ -110,6 +110,9 @@ class HomeScreen extends StatelessWidget {
                           ),
                         ),
                         SizedBox(height: 8),
+                        Icon(
+                          Icons.cloud
+                        )
                       ],
                     ),
                   ),
