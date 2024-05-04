@@ -96,7 +96,7 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 16,),
             SizedBox(
-              height: 200,
+              height: 150,
               child: ListView(
                 children: [
                   Card(
