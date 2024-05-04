@@ -85,7 +85,9 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(height: 20),
             Row(
               children: [
-                
+                Card(
+                  
+                )
               ],
             )
             const Align(
