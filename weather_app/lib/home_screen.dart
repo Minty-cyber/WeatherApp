@@ -96,6 +96,7 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 16,),
             SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
               child: Row(
                 children: [
                 Card(
