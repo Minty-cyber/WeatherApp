@@ -95,13 +95,13 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 20,),
-            const Row(
+            Row(
               children: [
               SizedBox(
                   width: 100,
                   child: Card(
                     elevation: 6,
-                    child: Padding(
+                    child: Container(
                       padding: EdgeInsets.all(8.0),
                       child: Column(
                         children: [
