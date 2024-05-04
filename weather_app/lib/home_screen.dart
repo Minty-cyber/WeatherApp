@@ -119,7 +119,7 @@ class HomeScreen extends StatelessWidget {
                           '300.21',
                           style: TextStyle(
                             fontSize: 16,
-                            fontWeight: FontWeight.bold,
+                            
                           ),
                         ),
 
