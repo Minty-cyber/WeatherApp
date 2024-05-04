@@ -97,42 +97,40 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(height: 20,),
             Row(
               children: [
-              SizedBox(
+              Card(
+                elevation: 6,
+                child: Container(
                   width: 100,
-                  child: Card(
-                    elevation: 6,
-                    child: Container(
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      padding: EdgeInsets.all(8.0),
-                      child: Column(
-                        children: [
-                          Text(
-                            '9:00',
-                            style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                          SizedBox(height: 8),
-                          Icon(
-                            Icons.cloud,
-                            size: 32,
-                          ),
-                          SizedBox(height: 8),
-                          Text(
-                            '300.21',
-                            style: TextStyle(
-                              // fontSize: 16,
-                            ),
-                          ),
-                      
-                        ],
-                      ),
-                    ),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
                   ),
-                )
+                  padding: EdgeInsets.all(8.0),
+                  child: Column(
+                    children: [
+                      Text(
+                        '9:00',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      SizedBox(height: 8),
+                      Icon(
+                        Icons.cloud,
+                        size: 32,
+                      ),
+                      SizedBox(height: 8),
+                      Text(
+                        '300.21',
+                        style: TextStyle(
+                          // fontSize: 16,
+                        ),
+                      ),
+                  
+                    ],
+                  ),
+                ),
+              )
               ],
             ),
             
