@@ -57,7 +57,7 @@ class HomeScreen extends StatelessWidget {
                         Text(
                           'Rain',
                           style: TextStyle(
-                            fontSize: 16,
+                            fontSize: 20,
                           ),
                         )
                     
