@@ -46,34 +46,36 @@ class HomeScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(16)
                 ),
                 elevation: 16,
-                child: BackdropFilter(
-                  filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
-                  child: const Padding(
-                    padding: EdgeInsets.all(20.0),
-                    child: Column(
-                      children: [
-                        Text(
-                          "300° F",
-                          style: TextStyle(
-                            fontSize: 32,
-                            fontWeight: FontWeight.bold,
-                          ),
-                          ),
-                          SizedBox(height: 16),
-                          Icon(
-                            Icons.cloud,
-                            size: 66 
-                            ,
+                child: ClipRect(
+                  child: BackdropFilter(
+                    filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                    child: const Padding(
+                      padding: EdgeInsets.all(20.0),
+                      child: Column(
+                        children: [
+                          Text(
+                            "300° F",
+                            style: TextStyle(
+                              fontSize: 32,
+                              fontWeight: FontWeight.bold,
+                            ),
                             ),
                             SizedBox(height: 16),
-                            Text(
-                              'Rain',
-                              style: TextStyle(
-                                fontSize: 20,
+                            Icon(
+                              Icons.cloud,
+                              size: 66 
+                              ,
                               ),
-                            )
-                        
-                      ],
+                              SizedBox(height: 16),
+                              Text(
+                                'Rain',
+                                style: TextStyle(
+                                  fontSize: 20,
+                                ),
+                              )
+                          
+                        ],
+                      ),
                     ),
                   ),
                 ),
