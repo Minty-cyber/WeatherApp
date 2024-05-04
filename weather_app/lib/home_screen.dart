@@ -100,7 +100,7 @@ class HomeScreen extends StatelessWidget {
               Card(
                 elevation: 6,
                 child: Container(
-                  width: 100,
+                  width: 200,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                   ),
