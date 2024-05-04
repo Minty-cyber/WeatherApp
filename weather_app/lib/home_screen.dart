@@ -44,7 +44,7 @@ class HomeScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(16)
                 ),
                 elevation: 16,
-                child: Padding(
+                child: const Padding(
                   padding: EdgeInsets.all(20.0),
                   child: Column(
                     children: [
