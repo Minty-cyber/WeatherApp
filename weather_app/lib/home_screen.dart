@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
               width: double.infinity,
               child: Card(
                 child: Padding(
-                  padding: EdgeInsets.all(8.0),
+                  padding: EdgeInsets.all(10.0),
                   child: Column(
                     children: [
                       Text(
