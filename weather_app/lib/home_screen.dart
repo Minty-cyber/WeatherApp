@@ -83,20 +83,6 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 20),
-            Row(
-              children: [
-                Card(
-                  child: Column(
-                    children: [
-                      Text(
-                        '9:00'
-                      )
-                    ],
-                  ),
-
-                )
-              ],
-            ),
             const Align(
               alignment: Alignment.centerLeft,
               child: Text(
