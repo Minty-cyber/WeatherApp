@@ -130,6 +130,7 @@ class HomeScreen extends StatelessWidget {
                     ],
                   ),
                 ),
+                
               ),
               Card(
                 elevation: 6,
