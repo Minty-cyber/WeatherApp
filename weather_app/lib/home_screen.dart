@@ -84,9 +84,10 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             const Text(
-              'Weather Forecast'
+              'Weather Forecast',
               style: TextStyle(
-                fontSize: 
+                fontSize: 20,
+
               ),
             ),
             // forecast cards
