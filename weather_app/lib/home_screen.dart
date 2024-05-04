@@ -99,7 +99,11 @@ class HomeScreen extends StatelessWidget {
               children: [
                 Card(
                   child: Column(
-                    
+                    children: [
+                      Text(
+                        
+                      )
+                    ],
                   ),
                 )
               ],
