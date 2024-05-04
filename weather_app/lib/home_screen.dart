@@ -118,7 +118,7 @@ class HomeScreen extends StatelessWidget {
                         Text(
                           '300.21',
                           style: TextStyle(
-                            fontSize: 16,
+                            // fontSize: 16,
                             
                           ),
                         ),
