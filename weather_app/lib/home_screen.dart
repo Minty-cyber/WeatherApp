@@ -87,7 +87,7 @@ class HomeScreen extends StatelessWidget {
               'Weather Forecast',
               style: TextStyle(
                 fontSize: 20,
-                fontWeight: FontWeight.bold
+                fontWeight: FontWeight.bold,
 
               ),
             ),
