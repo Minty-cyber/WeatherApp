@@ -97,7 +97,7 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(height: 20,),
             Row(
               children: [
-                SizedBox(
+              SizedBox(
                   width: 100,
                   child: Card(
                     child: Column(
@@ -109,7 +109,7 @@ class HomeScreen extends StatelessWidget {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        
+                        SizedBox(height: 16,)
                       ],
                     ),
                   ),
