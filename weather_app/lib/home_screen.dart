@@ -40,7 +40,7 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: Card(
-                shape: Border(
+                shape: RoundedRectangleBorder(
                   
                 ),
                 elevation: 16,
