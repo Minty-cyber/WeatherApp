@@ -33,7 +33,7 @@ class HomeScreen extends StatelessWidget {
           ],
       ),
       body: Padding(
-        padding: EdgeInsets.all(12.0),
+        padding: const EdgeInsets.all(12.0),
         child: Column(
           children: [
             // Top card
