@@ -101,7 +101,7 @@ class HomeScreen extends StatelessWidget {
                 elevation: 6,
                 child: Container(
                   alignment: Alignment.centerLeft,
-                  width: double.infinity,
+                  width: 500,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                   ),
