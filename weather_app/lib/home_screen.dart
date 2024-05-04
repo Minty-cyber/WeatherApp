@@ -46,7 +46,8 @@ class HomeScreen extends StatelessWidget {
                   borderRadius: BorderRadius.circular(16)
                 ),
                 elevation: 16,
-                child: ClipRect(
+                child: ClipRRect(
+                  
                   child: BackdropFilter(
                     filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
                     child: const Padding(
