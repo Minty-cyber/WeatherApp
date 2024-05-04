@@ -105,7 +105,7 @@ class HomeScreen extends StatelessWidget {
                     borderRadius: BorderRadius.circular(10),
                   ),
                   padding: const EdgeInsets.all(8.0),
-                  child: Column(
+                  child: const Column(
                     children: [
                       Text(
                         '9:00',
