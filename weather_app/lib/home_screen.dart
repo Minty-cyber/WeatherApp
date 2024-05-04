@@ -47,10 +47,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 elevation: 16,
                 child: BackdropFilter(
-                  filter: ImageFilter.blur(
-                    0,
-                    0
-                  ),
+                  filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
                   child: const Padding(
                     padding: EdgeInsets.all(20.0),
                     child: Column(
