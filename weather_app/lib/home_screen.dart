@@ -84,7 +84,8 @@ class HomeScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             const Align(
-              child: const Text(
+              alignment: Alignment.centerLeft,
+              child: Text(
                 'Weather Forecast',
                 style: TextStyle(
                   fontSize: 24,
