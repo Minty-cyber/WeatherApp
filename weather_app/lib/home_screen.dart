@@ -98,13 +98,14 @@ class HomeScreen extends StatelessWidget {
             Row(
               children: [
                 SizedBox(
-                  width: 100,
-                  child: Column(
-                    children: [
-                      Text(
-                        '9:00'
-                      )
-                    ],
+                  child: Card(
+                    child: Column(
+                      children: [
+                        Text(
+                          '9:00'
+                        )
+                      ],
+                    ),
                   ),
                 )
               ],
