@@ -107,7 +107,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                 )
               ],
-            )
+            ),
             const Placeholder(
               fallbackHeight: 150,
             ),
