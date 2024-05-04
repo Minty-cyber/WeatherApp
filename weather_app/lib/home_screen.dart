@@ -98,6 +98,7 @@ class HomeScreen extends StatelessWidget {
             Row(
               children: [
                 SizedBox(
+                  width: 100,
                   child: Column(
                     children: [
                       Text(
