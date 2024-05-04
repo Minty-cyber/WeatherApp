@@ -101,7 +101,7 @@ class HomeScreen extends StatelessWidget {
                   child: Column(
                     children: [
                       Text(
-                        
+                        '9:00'
                       )
                     ],
                   ),
