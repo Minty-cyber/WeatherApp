@@ -98,10 +98,10 @@ class HomeScreen extends StatelessWidget {
             Row(
               children: [
                 Column(
-                  
+
                 )
               ],
-            )
+            ),
             const Placeholder(
               fallbackHeight: 150,
             ),
