@@ -96,7 +96,9 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 16,),
-            SizedBox(
+            Row(
+              children: [
+                SizedBox(
               width: double.infinity,
               child: Card(
                 shape: RoundedRectangleBorder(
@@ -115,6 +117,9 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
+              ],
+            )
+            
             
             // Row(
             //   children: [
