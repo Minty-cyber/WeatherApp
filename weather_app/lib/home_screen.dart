@@ -49,6 +49,7 @@ class HomeScreen extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                       ),
+                      SizedBox(height: 16,),
                       Icon(
                         Icons.cloud,
                         size: 66 
