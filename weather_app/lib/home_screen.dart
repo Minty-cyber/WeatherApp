@@ -103,7 +103,11 @@ class HomeScreen extends StatelessWidget {
                     child: Column(
                       children: [
                         Text(
-                          '9:00'
+                          '9:00',
+                          style: TextStyle(
+                            fontSize: 16,
+                            fontWeight: FontWeight.bold,
+                          ),
                         )
                       ],
                     ),
