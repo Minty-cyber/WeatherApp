@@ -53,6 +53,9 @@ class HomeScreen extends StatelessWidget {
                         Icons.cloud,
                         size: 66 
                         ,
+                        ),
+                        Text(
+                          
                         )
                     
                   ],
