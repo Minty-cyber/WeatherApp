@@ -86,7 +86,8 @@ class HomeScreen extends StatelessWidget {
             Row(
               children: [
                 Card(
-                  
+                  child: ,
+
                 )
               ],
             )
