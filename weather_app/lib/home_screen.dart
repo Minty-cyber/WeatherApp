@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
               width: double.infinity,
               child: Card(
                 shape: RoundedRectangleBorder(
-                  
+                  borderRadius: 
                 ),
                 elevation: 16,
                 child: Padding(
