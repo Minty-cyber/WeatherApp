@@ -100,29 +100,32 @@ class HomeScreen extends StatelessWidget {
               SizedBox(
                   width: 100,
                   child: Card(
-                    child: Column(
-                      children: [
-                        Text(
-                          '9:00',
-                          style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.bold,
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Column(
+                        children: [
+                          Text(
+                            '9:00',
+                            style: TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
-                        ),
-                        SizedBox(height: 8),
-                        Icon(
-                          Icons.cloud,
-                          size: 32,
-                        ),
-                        SizedBox(height: 8),
-                        Text(
-                          '300.21',
-                          style: TextStyle(
-                            // fontSize: 16,
+                          SizedBox(height: 8),
+                          Icon(
+                            Icons.cloud,
+                            size: 32,
                           ),
-                        ),
-
-                      ],
+                          SizedBox(height: 8),
+                          Text(
+                            '300.21',
+                            style: TextStyle(
+                              // fontSize: 16,
+                            ),
+                          ),
+                      
+                        ],
+                      ),
                     ),
                   ),
                 )
