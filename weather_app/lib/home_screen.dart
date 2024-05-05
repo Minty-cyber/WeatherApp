@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
 
   Future getCurrentWeather() async {
     String city = 'London';
-    final res = awaithttp.get(
+    final res = await http.get(
       Uri.parse('https://api.openweathermap.org/data/2.5/weather?q=$city&APPID=$API')
       );
   }
