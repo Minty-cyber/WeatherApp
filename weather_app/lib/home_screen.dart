@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
         print(res.body);
       }
     } catch (e) {
-      
+      throw e.toString();
     }
     
   }
