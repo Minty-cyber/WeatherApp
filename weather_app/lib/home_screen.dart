@@ -36,6 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
       if (data['cod']!='200') {
         throw 'An unexpected error occured';
       }
+      
 
       
     } catch (e) {
