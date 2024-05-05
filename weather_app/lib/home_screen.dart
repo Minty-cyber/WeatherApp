@@ -38,7 +38,10 @@ class _HomeScreenState extends State<HomeScreen> {
       if (data['cod']!='200') {
         throw 'An unexpected error occured';
       }
+      setState(() {
       temp = (data['list'][0]['main']['temp']);
+        
+      },)
 
       
     } catch (e) {
