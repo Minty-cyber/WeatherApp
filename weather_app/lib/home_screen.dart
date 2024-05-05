@@ -96,6 +96,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 if (snapshot.hasError) {
                   return Center(child: Text(snapshot.error.toString()));
                 }
+
+                
                 return SizedBox(
                 width: double.infinity,
                 child: Card(
