@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 
 class HourlyForecastWidget extends StatelessWidget {
+  final String time;
+  final IconData icon
   const HourlyForecastWidget({super.key});
 
   @override
