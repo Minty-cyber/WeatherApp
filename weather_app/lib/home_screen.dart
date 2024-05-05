@@ -222,8 +222,8 @@ class HomeScreen extends StatelessWidget {
   }
 }
 
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
+class HourlyForecastWidget extends StatelessWidget {
+  const HourlyForecastWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
