@@ -123,51 +123,28 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 16,),
-            Padding(
-              padding: const EdgeInsets.all(20.0),
-              child: const Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  AdditionalInfoWidget(
-                    icon: Icons.water_drop,
-                    label: 'Hunidity',
-                    value: '91',
-                  ),
-                  AdditionalInfoWidget(
-                    icon: Icons.beach_access_outlined,
-                    label: 'Pressure',
-                    value: '21',
-                  ),
-                  AdditionalInfoWidget(
-                    icon: Icons.air_sharp,
-                    label: 'Wind Speed',
-                    value: '32.1',
-                  ),
-                  AdditionalInfoWidget(
-                    icon: Icons.air_sharp,
-                    label: 'Wind Speed',
-                    value: '32.1',
-                  ),
-                  AdditionalInfoWidget(
-                    icon: Icons.air_sharp,
-                    label: 'Wind Speed',
-                    value: '32.1',
-                  ),
-                  AdditionalInfoWidget(
-                    icon: Icons.air_sharp,
-                    label: 'Wind Speed',
-                    value: '32.1',
-                  ),
-                  AdditionalInfoWidget(
-                    icon: Icons.air_sharp,
-                    label: 'Wind Speed',
-                    value: '32.1',
-                  ),
-                  
-                  
-              
-                ],
-              ),
+            const Row(
+              mainAxisAlignment: MainAxisAlignment.spaceAround,
+              children: [
+                AdditionalInfoWidget(
+                  icon: Icons.water_drop,
+                  label: 'Hunidity',
+                  value: '91',
+                ),
+                AdditionalInfoWidget(
+                  icon: Icons.beach_access_outlined,
+                  label: 'Pressure',
+                  value: '21',
+                ),
+                AdditionalInfoWidget(
+                  icon: Icons.air_sharp,
+                  label: 'Wind Speed',
+                  value: '32.1',
+                ),
+                
+                
+            
+              ],
             )
           ],
         ),
