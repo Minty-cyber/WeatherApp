@@ -138,7 +138,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 AdditionalInfoWidget(
                   icon: Icons.air_sharp,
-                  label: 'Hunidity',
+                  label: 'Wind Speed',
                   value: '91',
                 ),
                 
