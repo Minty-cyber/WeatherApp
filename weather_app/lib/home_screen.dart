@@ -28,7 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final res = await http.get(
       Uri.parse('https://api.openweathermap.org/data/2.5/weather?q=$city&APPID=$API')
       );
-
+    
     print(res.body);
   }
 
