@@ -36,9 +36,7 @@ class _HomeScreenState extends State<HomeScreen> {
       throw e.toString();
     }
 
-    if (kDebugMode) {
-        print(res.body);
-      }
+    
     
   }
 
