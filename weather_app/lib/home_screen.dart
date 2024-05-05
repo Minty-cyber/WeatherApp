@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   
 
-  Future getCurrentWeather() async {
+  Future<> getCurrentWeather() async {
     try {
       String city = 'London';
       final res = await http.get(
@@ -97,7 +97,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   return Center(child: Text(snapshot.error.toString()));
                 }
 
-                
+        //data['list'][0]['main']['temp'];
+                final data = response.data
 
                 return SizedBox(
                 width: double.infinity,
