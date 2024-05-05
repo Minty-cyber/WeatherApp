@@ -110,9 +110,17 @@ class HomeScreen extends StatelessWidget {
             
             const SizedBox(height: 20),
             //Information tab
-            const Text(
-              'Additional Information'
-            )
+            const Align(
+              alignment: Alignment.centerLeft,
+              child: Text(
+                'Weather Forecast',
+                style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+              
+                ),
+              ),
+            ),
           ],
         ),
       ),
