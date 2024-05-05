@@ -132,7 +132,8 @@ class HomeScreen extends StatelessWidget {
                       ),
                       SizedBox(height: 8,),
                       Text(
-                        'Humidity'
+                        'Humidity',
+                        style: ,
                       )
                   ],
                 )
