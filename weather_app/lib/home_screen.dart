@@ -126,7 +126,9 @@ class HomeScreen extends StatelessWidget {
             const Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
-                AdditionalInfoWidget(),
+                AdditionalInfoWidget(
+                  
+                ),
                 AdditionalInfoWidget(),
                 AdditionalInfoWidget(),
                 
