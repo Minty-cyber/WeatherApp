@@ -9,8 +9,8 @@ class HourlyForecastWidget extends StatelessWidget {
   const HourlyForecastWidget({
     super.key,
     required this.time
-    required this.time
-    required this.time
+    required this.icon
+    required this.temperature
 
 
     });
