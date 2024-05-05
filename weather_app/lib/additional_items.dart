@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 
 
 class AdditionalInfoWidget extends StatelessWidget {
-  final IconInfo icon;
-  final TextLabel label;
-  final Value value;
+  final IconData icon;
+  final String label;
+  final String value;
 
   const AdditionalInfoWidget({
     super.key,
