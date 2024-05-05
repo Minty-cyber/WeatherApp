@@ -8,7 +8,8 @@ class HourlyForecastWidget extends StatelessWidget {
 
   const HourlyForecastWidget({
     super.key
-    
+    required this.time
+
     });
   
 
