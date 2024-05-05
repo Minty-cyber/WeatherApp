@@ -89,7 +89,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 print(snapshot);
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   return const CircularProgressIndicator.adaptive(
-                    backgroundColor: Colors.amber,
+                    backgroundColor: Colors.amberAccent,
                   );
                 }
 
