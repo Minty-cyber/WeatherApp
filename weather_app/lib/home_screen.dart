@@ -27,13 +27,13 @@ class _HomeScreenState extends State<HomeScreen> {
   Future getCurrentWeather() async {
     try {
       String city = 'London';
-    final res = await http.get(
-      Uri.parse('https://api.openweathermap.org/data/2.5/forecast?q=$city&APPID=$API')
-      );
+      final res = await http.get(
+        Uri.parse('https://api.openweathermap.org/data/2.5/forecast?q=$city&APPID=$API')
+        );
 
-    if (kDebugMode) {
-      print(res.body);
-    }
+      if (kDebugMode) {
+        print(res.body);
+      }
     } catch (e) {
       
     }
