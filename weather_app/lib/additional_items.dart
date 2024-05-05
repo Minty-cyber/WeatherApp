@@ -30,7 +30,7 @@ class AdditionalInfoWidget extends StatelessWidget {
           ),
           SizedBox(height: 8,),
           Text(
-            '321.23',
+            value,
             style: TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.bold
