@@ -10,7 +10,6 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      backgroundColor: Colors,
       appBar: AppBar(
         title: const Text(
           'Weather App',
@@ -44,7 +43,7 @@ class HomeScreen extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: Card(
-                
+                color: Colors,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16)
                 ),
