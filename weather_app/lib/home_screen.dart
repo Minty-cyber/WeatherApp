@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:ui';
 import 'package:flutter/foundation.dart';
 import 'package:weather_app/secrets.dart';
@@ -31,7 +32,7 @@ class _HomeScreenState extends State<HomeScreen> {
         Uri.parse('https://api.openweathermap.org/data/2.5/forecast?q=$city&APPID=$API')
         );
 
-      
+      final data = jsonDecode(res.body);
 
       
     } catch (e) {
