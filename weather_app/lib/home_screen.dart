@@ -104,9 +104,6 @@ class HomeScreen extends StatelessWidget {
                 HourlyForecastWidget(),
                 HourlyForecastWidget(),
                 HourlyForecastWidget(),
-
-
-                
                 ],
               ),
             ),
