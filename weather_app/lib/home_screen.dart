@@ -130,6 +130,7 @@ class HomeScreen extends StatelessWidget {
                       Icons.water_drop,
                       size: 32,
                       )
+                      
                   ],
                 )
               ],
