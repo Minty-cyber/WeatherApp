@@ -4,10 +4,12 @@ import 'package:flutter/material.dart';
 class AdditionalInfoWidget extends StatelessWidget {
   final IconInfo icon;
   final TextLabel label;
-  
+
   const AdditionalInfoWidget({
     super.key,
     required this.icon,
+    required this.label,
+
   });
 
   @override
