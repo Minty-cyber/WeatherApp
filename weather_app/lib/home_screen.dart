@@ -85,7 +85,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: [
             // Top card
-            temp == 0 ? const CircularProgressIndicator() SizedBox(
+            temp == 0 ? const CircularProgressIndicator() : SizedBox(
               width: double.infinity,
               child: Card(
                 color: Colors.amber,
