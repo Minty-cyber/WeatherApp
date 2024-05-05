@@ -30,7 +30,7 @@ class AdditionalInfoWidget extends StatelessWidget {
               // fontSize: 20,
             ),
           ),
-          SizedBox(height: 8,),
+          const SizedBox(height: 8,),
           Text(
             value,
             style: TextStyle(
