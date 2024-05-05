@@ -97,8 +97,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   return Center(child: Text(snapshot.error.toString()));
                 }
 
-        //data['list'][0]['main']['temp'];
                 final data = snapshot.data;
+        
+                final currentTemp = data['list'][0]['main']['temp'];
 
                 return SizedBox(
                 width: double.infinity,
