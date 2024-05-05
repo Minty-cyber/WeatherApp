@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'dart:ui';
 // import 'package:flutter/foundation.dart';
-import 'package:flutter/widgets.dart';
 import 'package:weather_app/secrets.dart';
 import 'package:weather_app/weather_items.dart';
 import 'package:weather_app/additional_items.dart';
@@ -106,25 +105,25 @@ class _HomeScreenState extends State<HomeScreen> {
                     borderRadius: BorderRadius.circular(16),
                     child: BackdropFilter(
                       filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
-                      child: Padding(
-                        padding: const EdgeInsets.all(20.0),
+                      child: const Padding(
+                        padding: EdgeInsets.all(20.0),
                         child: Column(
                           children: [
                             Text(
                               "200 K",
-                              style: const TextStyle(
+                              style: TextStyle(
                                 fontSize: 32,
                                 fontWeight: FontWeight.bold,
                               ),
                               ),
-                              const SizedBox(height: 16),
-                              const Icon(
+                              SizedBox(height: 16),
+                              Icon(
                                 Icons.cloud,
                                 size: 66 
                                 ,
                                 ),
-                                const SizedBox(height: 16),
-                                const Text(
+                                SizedBox(height: 16),
+                                Text(
                                   'Rain',
                                   style: TextStyle(
                                     fontSize: 20,
