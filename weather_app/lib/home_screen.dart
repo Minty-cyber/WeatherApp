@@ -100,7 +100,10 @@ class HomeScreen extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               child: Row(
                 children: [
-                HourlyForecastWidget(),
+                HourlyForecastWidget(
+                  icon: Icons.cloud,
+                  
+                ),
                 HourlyForecastWidget(),
                 HourlyForecastWidget(),
                 HourlyForecastWidget(),
