@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
 
 
   Future getCurrentWeather() async {
-    http.get(url)
+    http.get(Uri.parse(uri))
   }
 
   @override
