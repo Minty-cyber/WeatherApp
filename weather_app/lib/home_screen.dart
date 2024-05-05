@@ -102,7 +102,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Column(
                         children: [
                           Text(
-                            "300° F",
+                            "$temp K"
                             style: TextStyle(
                               fontSize: 32,
                               fontWeight: FontWeight.bold,
