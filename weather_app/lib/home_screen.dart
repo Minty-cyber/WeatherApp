@@ -124,7 +124,7 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(height: 16,),
             const Row(
               children: [
-                AdditionalInfoWidget()
+                AdditionalInfoWidget(),
               ],
             )
           ],
