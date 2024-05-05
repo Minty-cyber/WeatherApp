@@ -64,6 +64,7 @@ class _HomeScreenState extends State<HomeScreen> {
         
           ),
           centerTitle: true,
+          actionsPadding: EdgeInsets.only(right: 16.0),
           actions: [
             IconButton(
               onPressed: (){
