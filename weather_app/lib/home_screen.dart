@@ -99,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       child: Column(
                         children: [
                           Text(
-                            "$temp K",
+                            "200 K",
                             style: const TextStyle(
                               fontSize: 32,
                               fontWeight: FontWeight.bold,
