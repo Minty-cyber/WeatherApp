@@ -86,7 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
             FutureBuilder(
               future: getCurrentWeather(),
               builder: (context, snapshot) {
-                print(snapshot);
+                
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   return const CircularProgressIndicator();
                 }
