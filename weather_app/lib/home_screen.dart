@@ -85,7 +85,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: [
             // Top card
-            SizedBox(
+            temp == 0 ? SizedBox(
               width: double.infinity,
               child: Card(
                 color: Colors.amber,
