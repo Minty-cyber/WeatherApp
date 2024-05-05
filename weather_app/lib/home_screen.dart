@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
         throw 'An unexpected error occured';
       }
 
-        temp = (data['list'][0]['main']['temp']);
+        //temp = (data['list'][0]['main']['temp']);
         
     
 
