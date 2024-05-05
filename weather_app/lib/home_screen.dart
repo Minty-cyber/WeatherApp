@@ -95,14 +95,14 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 16,),
-            SingleChildScrollView(
+            const SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
                 children: [
                 HourlyForecastWidget(),
                 HourlyForecastWidget(),
                 HourlyForecastWidget(),
-                 HourlyForecastWidget(),
+                HourlyForecastWidget(),
 
                 
                 ],
