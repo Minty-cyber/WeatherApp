@@ -91,7 +91,9 @@ class _HomeScreenState extends State<HomeScreen> {
                   return const CircularProgressIndicator();
                 }
 
-                
+                if (snapshot.hasError) {
+                  return 
+                }
                 return SizedBox(
                 width: double.infinity,
                 child: Card(
