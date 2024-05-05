@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:ui';
 // import 'package:flutter/foundation.dart';
+import 'package:flutter/widgets.dart';
 import 'package:weather_app/secrets.dart';
 import 'package:weather_app/weather_items.dart';
 import 'package:weather_app/additional_items.dart';
@@ -82,49 +83,62 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: [
             // Top card
-            SizedBox(
-              width: double.infinity,
-              child: Card(
-                color: Colors.amber,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(16)
-                ),
-                elevation: 16,
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(16),
-                  child: BackdropFilter(
-                    filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
-                    child: Padding(
-                      padding: const EdgeInsets.all(20.0),
-                      child: Column(
-                        children: [
-                          Text(
-                            "200 K",
-                            style: const TextStyle(
-                              fontSize: 32,
-                              fontWeight: FontWeight.bold,
-                            ),
-                            ),
-                            const SizedBox(height: 16),
-                            const Icon(
-                              Icons.cloud,
-                              size: 66 
-                              ,
+            FutureBuilder(
+              future: getCurrentWeather(),
+              builder: (context, snapshot) {
+                
+                if (snapshot.connectionState == ConnectionState.waiting) {
+                  return const CircularProgressIndicator();
+                }
+
+                if (snapshot.hasError) {
+                  return Text(snapshot.error.toString());
+                }
+                return SizedBox(
+                width: double.infinity,
+                child: Card(
+                  color: Colors.amber,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16)
+                  ),
+                  elevation: 16,
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(16),
+                    child: BackdropFilter(
+                      filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                      child: Padding(
+                        padding: const EdgeInsets.all(20.0),
+                        child: Column(
+                          children: [
+                            Text(
+                              "200 K",
+                              style: const TextStyle(
+                                fontSize: 32,
+                                fontWeight: FontWeight.bold,
+                              ),
                               ),
                               const SizedBox(height: 16),
-                              const Text(
-                                'Rain',
-                                style: TextStyle(
-                                  fontSize: 20,
+                              const Icon(
+                                Icons.cloud,
+                                size: 66 
+                                ,
                                 ),
-                              )
-                          
-                        ],
+                                const SizedBox(height: 16),
+                                const Text(
+                                  'Rain',
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                  ),
+                                )
+                            
+                          ],
+                        ),
                       ),
                     ),
                   ),
                 ),
-              ),
+              );
+              },
             ),
             const SizedBox(height: 20,),
             const Align(
