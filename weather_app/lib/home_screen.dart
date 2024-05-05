@@ -92,7 +92,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 }
 
                 if (snapshot.hasError) {
-                  return 
+                  return const Text(data)
                 }
                 return SizedBox(
                 width: double.infinity,
