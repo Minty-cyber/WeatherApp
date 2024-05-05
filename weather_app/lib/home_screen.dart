@@ -128,7 +128,7 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     Icon(
                       Icons.water_drop,
-                      
+                      size: 20,
                       )
                   ],
                 )
