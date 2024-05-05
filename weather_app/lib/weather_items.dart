@@ -7,7 +7,7 @@ class HourlyForecastWidget extends StatelessWidget {
   final String temperature;
 
   const HourlyForecastWidget({
-    super.key
+    super.key,
     required this.time
 
     });
