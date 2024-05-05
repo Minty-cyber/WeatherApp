@@ -100,7 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 final data = snapshot.data!;
 
                 final currentTemp = data['list'][0]['main']['temp'];
-                final currentcondition = data['list'][0]['weather']['main']
+                final currentcondition = data['list'][0]['weather'][0]['main'];
                 
         
 
