@@ -22,7 +22,7 @@ class AdditionalInfoWidget extends StatelessWidget {
           ),
           const SizedBox(height: 8,),
           Text(
-            'Humidity',
+            label,
             style: TextStyle(
               // fontSize: 20,
             ),
