@@ -84,7 +84,8 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             // Top card
             FutureBuilder(
-              child: SizedBox(
+              future: Future,
+              builder: (context, snapshot) => SizedBox(
                 width: double.infinity,
                 child: Card(
                   color: Colors.amber,
