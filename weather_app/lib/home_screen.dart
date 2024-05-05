@@ -87,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
               future: getCurrentWeather(),
               builder: (context, snapshot) {
                 print(snapshot);
-                print(snapshot.runtimeType);
+                
                 return SizedBox(
                 width: double.infinity,
                 child: Card(
