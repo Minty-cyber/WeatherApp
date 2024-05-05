@@ -90,6 +90,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   return const CircularProgressIndicator();
                 }
+
+                
                 return SizedBox(
                 width: double.infinity,
                 child: Card(
