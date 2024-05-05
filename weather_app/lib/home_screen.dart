@@ -98,7 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 }
 
         //data['list'][0]['main']['temp'];
-                final data = response.data
+                final data = snapshot.data
 
                 return SizedBox(
                 width: double.infinity,
