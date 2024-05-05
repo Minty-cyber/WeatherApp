@@ -125,7 +125,9 @@ class HomeScreen extends StatelessWidget {
             Row(
               children: [
                 Column(
-                  
+                  children: [
+                    
+                  ],
                 )
               ],
             )
