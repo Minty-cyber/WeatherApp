@@ -134,7 +134,7 @@ class HomeScreen extends StatelessWidget {
                 AdditionalInfoWidget(
                   icon: Icons.beach_access_outlined,
                   label: 'Pressure',
-                  value: '91',
+                  value: '21',
                 ),
                 AdditionalInfoWidget(
                   icon: Icons.air_sharp,
