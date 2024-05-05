@@ -1,4 +1,5 @@
 import 'dart:ui';
+import 'package:flutter/foundation.dart';
 import 'package:weather_app/secrets.dart';
 import 'package:weather_app/weather_items.dart';
 import 'package:weather_app/additional_items.dart';
@@ -28,8 +29,10 @@ class _HomeScreenState extends State<HomeScreen> {
     final res = await http.get(
       Uri.parse('https://api.openweathermap.org/data/2.5/weather?q=$city&APPID=$API')
       );
-    
+    if (kDebugMode) {
     print(res.body);
+      
+    }
   }
 
   @override
