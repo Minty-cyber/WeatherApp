@@ -123,7 +123,7 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 16,),
-            Padding(
+            const Padding(
               padding: const EdgeInsets.all(10.0),
               child: const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
