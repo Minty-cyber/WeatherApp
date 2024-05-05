@@ -5,6 +5,7 @@ class AdditionalInfoWidget extends StatelessWidget {
   final IconInfo icon;
   const AdditionalInfoWidget({
     super.key,
+    required this.icon,
   });
 
   @override
