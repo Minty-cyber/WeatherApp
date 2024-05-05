@@ -127,7 +127,8 @@ class HomeScreen extends StatelessWidget {
                 Column(
                   children: [
                     Icon(
-                      Icons.water_drop
+                      Icons.water_drop,
+                      
                       )
                   ],
                 )
