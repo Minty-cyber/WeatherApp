@@ -126,8 +126,8 @@ class _HomeScreenState extends State<HomeScreen> {
                                 fontWeight: FontWeight.bold,
                               ),
                               ),
-                              SizedBox(height: 16),
-                              Icon(
+                              const SizedBox(height: 16),
+                              const Icon(
                                 Icons.cloud,
                                 size: 66 
                                 ,
