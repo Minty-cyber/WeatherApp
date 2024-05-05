@@ -29,7 +29,7 @@ class HourlyForecastWidget extends StatelessWidget {
                     child: const Column(
                       children: [
                         Text(
-                          '9:00',
+                          time,
                           style: TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
