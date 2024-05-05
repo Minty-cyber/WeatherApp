@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
       Uri.parse('https://api.openweathermap.org/data/2.5/weather?q=$city&APPID=$API')
       );
     if (kDebugMode) {
-    print(res.body);
+      print(res.body);
       
     }
   }
