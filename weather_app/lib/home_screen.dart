@@ -129,7 +129,7 @@ class HourlyForecastWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Card(
+    return Card(
                   elevation: 6,
                   child: Container(
                     width: 100,
