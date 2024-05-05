@@ -3,13 +3,14 @@ import 'package:weather_app/weather_items.dart';
 import 'package:weather_app/additional_items.dart';
 import 'package:flutter/material.dart';
 
+import 'package:http/http.dart' as http;
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
 
   Future getCurrentWeather() async {
-    
+
   }
 
   @override
