@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   
 
-  Future<> getCurrentWeather() async {
+  Future<Map<String, dynamic>> getCurrentWeather() async {
     try {
       String city = 'London';
       final res = await http.get(
