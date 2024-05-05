@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
       
     } catch (e) {
-      throw e.toString();
+      throw "Failed to fetch weather data. Please check your internet connection";
     }
 
     
