@@ -98,7 +98,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 }
 
                 final data = snapshot.data;
-                
+                const currentTemp = 0;
                 if (data != null) {
                   final currentTemp = data['list'][0]['main']['temp'];
                 }
