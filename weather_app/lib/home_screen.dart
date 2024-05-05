@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     borderRadius: BorderRadius.circular(16),
                     child: BackdropFilter(
                       filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
-                      child: Padding(
+                      child: const Padding(
                         padding: const EdgeInsets.all(20.0),
                         child: Column(
                           children: [
