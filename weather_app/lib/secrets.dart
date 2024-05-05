@@ -1,1 +1,1 @@
-const API_KEY = '21a7a0f0f216a44b72def2a7beb52eb1';
+const API = '21a7a0f0f216a44b72def2a7beb52eb1';
