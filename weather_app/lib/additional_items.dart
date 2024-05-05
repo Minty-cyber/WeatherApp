@@ -10,7 +10,7 @@ class AdditionalInfoWidget extends StatelessWidget {
     super.key,
     required this.icon,
     required this.label,
-    required this.label,
+    required this.value,
 
 
   });
