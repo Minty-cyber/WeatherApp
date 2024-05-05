@@ -16,7 +16,7 @@ class HomeScreen extends StatelessWidget {
       Uri.parse('https://api.openweathermap.org/data/2.5/weather?q=$city&APPID=$API')
       );
 
-      
+    print(res.body);
   }
 
   @override
