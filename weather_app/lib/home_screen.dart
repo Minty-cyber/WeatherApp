@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
 
   Future getCurrentWeather() async {
     http.get(
-      Uri.parse('')
+      Uri.parse('https://home.openweathermap.org/api_keys')
       );
   }
 
