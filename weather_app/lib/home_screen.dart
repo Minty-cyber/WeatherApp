@@ -64,7 +64,6 @@ class _HomeScreenState extends State<HomeScreen> {
         
           ),
           centerTitle: true,
-          
           actions: [
             IconButton(
               onPressed: (){
@@ -87,7 +86,7 @@ class _HomeScreenState extends State<HomeScreen> {
             FutureBuilder(
               future: getCurrentWeather(),
               builder: (context, snapshot) {
-                
+                print(snapshot);
                 if (snapshot.connectionState == ConnectionState.waiting) {
                   return const CircularProgressIndicator();
                 }
