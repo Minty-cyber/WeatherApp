@@ -85,9 +85,9 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: [
             // Top card
-            SizedBox(
+            temp == 0 ? const CircularProgressIndicator() : SizedBox(
               width: double.infinity,
-              child: temp == 0 ? const CircularProgressIndicator() : Card(
+              child: Card(
                 color: Colors.amber,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16)
