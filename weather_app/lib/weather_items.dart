@@ -26,7 +26,7 @@ class HourlyForecastWidget extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10),
                     ),
                     padding: const EdgeInsets.all(8.0),
-                    child: const Column(
+                    child: Column(
                       children: [
                         Text(
                           time,
