@@ -123,25 +123,27 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 16,),
-            const Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                AdditionalInfoWidget(),
-                AdditionalInfoWidget(),
-                AdditionalInfoWidget(),
-                AdditionalInfoWidget(),
-
-                AdditionalInfoWidget(),
-
-                AdditionalInfoWidget(),
-
-
-                AdditionalInfoWidget(),
-
-                AdditionalInfoWidget(),
-
-
-              ],
+            SingleChildScrollView(
+              child: const Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  AdditionalInfoWidget(),
+                  AdditionalInfoWidget(),
+                  AdditionalInfoWidget(),
+                  AdditionalInfoWidget(),
+              
+                  AdditionalInfoWidget(),
+              
+                  AdditionalInfoWidget(),
+              
+              
+                  AdditionalInfoWidget(),
+              
+                  AdditionalInfoWidget(),
+              
+              
+                ],
+              ),
             )
           ],
         ),
