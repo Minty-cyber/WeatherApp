@@ -121,7 +121,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         child: Column(
                           children: [
                             Text(
-                              "$ currentTemp K",
+                              "$currentTemp K",
                               style: TextStyle(
                                 fontSize: 32,
                                 fontWeight: FontWeight.bold,
