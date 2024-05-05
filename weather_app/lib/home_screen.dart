@@ -134,7 +134,7 @@ class HomeScreen extends StatelessWidget {
                       Text(
                         'Humidity',
                         style: TextStyle(
-                          fontSize: 
+                          fontSize: 20,
                         ),
                       )
                   ],
