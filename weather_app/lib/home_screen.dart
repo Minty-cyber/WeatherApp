@@ -33,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
         );
 
       final data = jsonDecode(res.body);
-      if (data['cod']=='200') {
+      if (data['cod']!='200') {
         
       }
 
