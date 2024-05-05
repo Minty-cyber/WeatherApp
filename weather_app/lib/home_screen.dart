@@ -129,6 +129,17 @@ class HomeScreen extends StatelessWidget {
                 AdditionalInfoWidget(),
                 AdditionalInfoWidget(),
                 AdditionalInfoWidget(),
+                AdditionalInfoWidget(),
+
+                AdditionalInfoWidget(),
+
+                AdditionalInfoWidget(),
+
+
+                AdditionalInfoWidget(),
+
+                AdditionalInfoWidget(),
+
 
               ],
             )
