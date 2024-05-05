@@ -121,7 +121,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           children: [
                             Text(
                               "$currentTemp K",
-                              style: TextStyle(
+                              style: const TextStyle(
                                 fontSize: 32,
                                 fontWeight: FontWeight.bold,
                               ),
