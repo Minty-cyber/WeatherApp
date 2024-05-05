@@ -108,9 +108,6 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             
-            const Placeholder(
-              fallbackHeight: 150,
-            ),
             const SizedBox(height: 20),
             //Information tab
             const Placeholder(
