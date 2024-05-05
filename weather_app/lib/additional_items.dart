@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 class AdditionalInfoWidget extends StatelessWidget {
   final IconInfo icon;
   final TextLabel label;
+  final Value vlaue;
 
   const AdditionalInfoWidget({
     super.key,
