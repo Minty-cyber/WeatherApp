@@ -141,7 +141,7 @@ class AdditionalInfoWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       children: [
         Icon(
           Icons.water_drop,
