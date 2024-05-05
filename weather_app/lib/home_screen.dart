@@ -8,7 +8,9 @@ class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
 
-  
+  Future getCurrentWeather() async {
+    
+  }
 
   @override
   Widget build(BuildContext context) {
