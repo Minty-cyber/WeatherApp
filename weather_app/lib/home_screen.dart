@@ -117,7 +117,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 HourlyForecastWidget(
                   time: '12:00',
-                  icon: Icons.cloud,
+                  icon: Icons.wind_power,
                   temperature: '321.00', 
                 ),
                 HourlyForecastWidget(
