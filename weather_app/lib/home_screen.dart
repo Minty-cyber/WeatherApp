@@ -20,12 +20,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   double temp = 0;
 
-  @override
-  void initState() {
-    super.initState();
-    getCurrentWeather();
-  }
-
+  
 
   Future getCurrentWeather() async {
     try {
@@ -38,7 +33,7 @@ class _HomeScreenState extends State<HomeScreen> {
       if (data['cod']!='200') {
         throw 'An unexpected error occured';
       }
-      setState(() {
+
         temp = (data['list'][0]['main']['temp']);
         
     
