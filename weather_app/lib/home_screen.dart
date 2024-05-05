@@ -85,7 +85,8 @@ class _HomeScreenState extends State<HomeScreen> {
             // Top card
             FutureBuilder(
               future: getCurrentWeather(),
-              builder: (context, snapshot) => SizedBox(
+              builder: (context, snapshot) {
+                return SizedBox(
                 width: double.infinity,
                 child: Card(
                   color: Colors.amber,
@@ -128,7 +129,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                 ),
-              ),
+              );
+              },
             ),
             const SizedBox(height: 20,),
             const Align(
