@@ -88,7 +88,7 @@ class _HomeScreenState extends State<HomeScreen> {
               builder: (context, snapshot) {
                 print(snapshot);
                 if (snapshot.connectionState == ConnectionState.waiting) {
-                  return const CircularProgressIndicator();
+                  return const CircularProgressIndicator.adaptive();
                 }
 
                 if (snapshot.hasError) {
