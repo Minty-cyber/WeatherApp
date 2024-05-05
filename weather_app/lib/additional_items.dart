@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 
 class AdditionalInfoWidget extends StatelessWidget {
-  final 
+  final IconInfo
   const AdditionalInfoWidget({
     super.key,
   });
