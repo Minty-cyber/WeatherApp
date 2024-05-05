@@ -141,10 +141,13 @@ class HomeScreen extends StatelessWidget {
                   label: 'Wind Speed',
                   value: '32.1',
                 ),
-                AdditionalInfoWidget(
-                  icon: Icons.air_sharp,
-                  label: 'Wind Speed',
-                  value: '32.1',
+                Padding(
+                  padding: EdgeInsets.all(8.0),
+                  child: AdditionalInfoWidget(
+                    icon: Icons.air_sharp,
+                    label: 'Wind Speed',
+                    value: '32.1',
+                  ),
                 ),
                 AdditionalInfoWidget(
                   icon: Icons.air_sharp,
