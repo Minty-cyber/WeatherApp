@@ -41,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
       setState(() {
       temp = (data['list'][0]['main']['temp']);
         
-      },)
+      });
 
       
     } catch (e) {
