@@ -127,7 +127,8 @@ class HomeScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 AdditionalInfoWidget(
-                  
+                  icon: Icons.water_drop,
+                  label: 'Hunidity',
                 ),
                 AdditionalInfoWidget(),
                 AdditionalInfoWidget(),
