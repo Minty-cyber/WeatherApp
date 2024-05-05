@@ -137,7 +137,7 @@ class HomeScreen extends StatelessWidget {
                   value: '91',
                 ),
                 AdditionalInfoWidget(
-                  icon: Icons.water_drop,
+                  icon: Icons.air_sharp,
                   label: 'Hunidity',
                   value: '91',
                 ),
