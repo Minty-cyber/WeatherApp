@@ -108,8 +108,8 @@ class _HomeScreenState extends State<HomeScreen> {
                               fontWeight: FontWeight.bold,
                             ),
                             ),
-                            SizedBox(height: 16),
-                            Icon(
+                            const SizedBox(height: 16),
+                            const Icon(
                               Icons.cloud,
                               size: 66 
                               ,
@@ -117,7 +117,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               const SizedBox(height: 16),
                               const Text(
                                 'Rain',
-                                styleTextStyle(
+                                style: TextStyle(
                                   fontSize: 20,
                                 ),
                               )
