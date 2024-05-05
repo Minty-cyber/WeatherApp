@@ -134,7 +134,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 ,
                                 ),
                                 const SizedBox(height: 16),
-                                const Text(
+                                Text(
                                   currentConditionString,
                                   style: TextStyle(
                                     fontSize: 20,
